@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@700&family=Roboto&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+.Heading{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  margin-left: 20px;
+}
+nav ul li{
+  display: inline;
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+.Booking{
+  height: 44px;
+  width: 196px;
+  background-color:#E02C6D;
+  border: 1px solid #E02C6D;
+  border-radius: 41px;
+  padding: 10px, 24px, 10px, 24px;
+  text-align: center;
+  color: white;
+}
+.Journey{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+}
+
+/*--------------------------------------Media Query-----------------------------*/
+@media only screen and (max-width:576px){
+  .Journey{
+    display:flex;
+    flex-direction: column;
+    width: 576px;
+  }
+  .Journey_info
+{
+  height: 222px;
+  width: 404px;
+}
+.Journey_Pic img{
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.WebIcon{
+  display: flex;
+  flex-direction:column;
+}
+.Collections{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+}
+
+/*
+@media screen and (max-width:768px){
+  .Journey{
+    display:flex;
+    flex-direction: column;
+    width: 768px;
+  }
+  .Journey_info
+{
+  height: 222px;
+  width: 404px;
+}
+.Journey_Pic img{
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.WebIcon{
+  display: flex;
+  flex-direction:column;
+}
+.Collections{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+}
+
+@media screen and (max-width:1400px) {
+  .Journey{
+    display:flex;
+    flex-direction: column;
+    width: 576px;
+  }
+  .Journey_info
+{
+  height: 222px;
+  width: 404px;
+}
+.Journey_Pic img{
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.WebIcon{
+  display: flex;
+  flex-direction:column;
+}
+.Collections{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+}
+*/
+
+
+
+
+
+.Journey_info
+{
+height: 270px;
+width: 582px;
+}
+.Journey_Pic img{
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-left: 200px;
+  padding: 20px;
+  width: 440px;
+  height: 414px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.WebIcon{
+  display: flex;
+  flex-direction:row;
+  margin-top: 100px;
+}
+.WebIcon img{
+height: 39px;
+width: 986px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+padding: 20px;
+
+}
+.Collections{
+  margin-top: 100px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-content: center;
+  justify-content: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.Collection-type{
+  box-sizing: border-box;
+  height: 530px;
+width: 329px;
+background: #FFFFFF;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.Collection-type img{
+  margin: 10px;
+  height: 256px;
+width: 300px;
+border-radius: 5px;
+
+}
+.Next {
+  text-align: right;
+}
+.Next p a{
+  text-decoration: none;
+  color: #E02C6D;
+}
+
+footer{
+  text-align: center;
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    padding: 20px;
+}
+.Social-Media a i{
+  color: white;
+  width: 32px;
+}
+.star{
+  color: orange;
+}
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
