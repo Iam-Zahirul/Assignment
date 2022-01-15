@@ -1,3 +1,1 @@
-# ThirdProject
-# Influencer
-# Assignment_2
+#influencerOnly
